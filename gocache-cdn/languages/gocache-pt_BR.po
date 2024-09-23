@@ -1,0 +1,380 @@
+# Copyright (C) 2016 Apiki WordPress
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GoCache Manager 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/gocache-manager\n"
+"POT-Creation-Date: 2017-01-31 08:53-0200\n"
+"PO-Revision-Date: 2021-04-23 11:23-0300\n"
+"Last-Translator: \n"
+"Language-Team: Apiki <https://apiki.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Controller/cache.php:35
+msgid "All cache was deleted."
+msgstr "Todo o cache foi apagado."
+
+#: Controller/cache.php:39
+msgid "Could not delete cache."
+msgstr "Não foi possível deletar o cache."
+
+#: Controller/cache.php:54
+msgid "Empty field."
+msgstr "Campo vazio."
+
+#: Controller/cache.php:70
+msgid "Invalid URL."
+msgstr "URL inválida."
+
+#: Controller/cache.php:71
+msgid "Clear URL: "
+msgstr "URL(s) apagada(s): "
+
+#: Controller/cache.php:90
+msgid "The sitemap cannot be found, but you can insert it manually."
+msgstr "Não foi possível encontrar o sitemap, mas você pode inserí-lo manualmente."
+
+#: Controller/cache.php:97
+msgid "Sitemaps successfully fetched!"
+msgstr "Sitemaps buscados com sucesso!"
+
+#: Controller/cache.php:212
+msgid "The sitemap page must be of the .xml type!. Invalids Urls: "
+msgstr "As páginas de sitemap devem ser do tipo .xml! URL(s) Inválida(s): "
+
+#: Controller/cache.php:221
+msgid "Sitemaps saved successfully!"
+msgstr "Sitemaps salvos com sucesso!"
+
+#: Controller/requests.php:26
+msgid "Connection failed."
+msgstr "A conexão falhou."
+
+#: Controller/requests.php:42
+msgid "Remote settings were not saved."
+msgstr "As configurações remotas não foram salvas."
+
+#: Controller/requests.php:47
+msgid "Remote settings were saved."
+msgstr "As configurações remotas foram salvas."
+
+#: Controller/settings.php:47 Controller/settings.php:48 View/settings.php:21
+msgid "Start"
+msgstr "Início"
+
+#: Controller/settings.php:56 Controller/settings.php:57
+msgid "Authentication"
+msgstr "Autenticação"
+
+#: Controller/settings.php:69 View/settings.php:141
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: Controller/settings.php:70
+msgid "General"
+msgstr "Geral"
+
+#: Controller/settings.php:78 View/settings.php:270
+msgid "Cache Settings"
+msgstr "Configurações de Cache"
+
+#: Controller/settings.php:79
+msgid "Cache"
+msgstr "Cache"
+
+#: Controller/settings.php:96
+msgid "Operation was successful."
+msgstr "Operação executada com sucesso."
+
+#: Helper/l10n.php:29
+msgid "All %s"
+msgid_plural "All %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Helper/l10n.php:30
+msgid "Edit %s"
+msgstr ""
+
+#: Helper/l10n.php:31
+msgid "View %s"
+msgstr ""
+
+#: Helper/l10n.php:32
+msgid "Update %s"
+msgstr ""
+
+#: Helper/l10n.php:33
+msgid "Add New %s"
+msgid_plural "Add New %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Helper/l10n.php:34
+msgid "New %s Name"
+msgid_plural "New %s Name"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Helper/l10n.php:35
+msgid "Parent %s"
+msgstr ""
+
+#: Helper/l10n.php:36
+msgid "Parent %s:"
+msgstr ""
+
+#: Helper/l10n.php:37
+msgid "Search %s"
+msgstr ""
+
+#: Helper/l10n.php:38
+msgid "Popular %s"
+msgstr ""
+
+#: Helper/l10n.php:39
+msgid "Separate %s with commas"
+msgstr ""
+
+#: Helper/l10n.php:40
+msgid "Add or remove %s"
+msgstr ""
+
+#: Helper/l10n.php:41
+msgid "Choose from the most used %s"
+msgid_plural "Choose from the most used %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Helper/l10n.php:42
+msgid "No %s found."
+msgid_plural "No %s found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: Helper/l10n.php:43
+msgid "Add New"
+msgid_plural "Add New"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Helper/l10n.php:44
+msgid "New %s"
+msgid_plural "New %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Helper/l10n.php:45
+msgid "No %s found in Trash."
+msgid_plural "No %s found in Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: View/settings.php:60
+msgid "API Settings"
+msgstr "Configurações da API"
+
+#: View/settings.php:67
+msgid "Status"
+msgstr "Status"
+
+#: View/settings.php:71
+msgid "CONNECTED"
+msgstr "CONECTADO"
+
+#: View/settings.php:73
+msgid "NOT CONNECTED"
+msgstr "DESCONECTADO"
+
+#: View/settings.php:79
+msgid "API Key"
+msgstr "Chave da API"
+
+#: View/settings.php:82
+msgid "Your GoCache API key"
+msgstr "Sua chave da API GoCache"
+
+#: View/settings.php:87
+msgid "The API key for connecting with your GoCache account."
+msgstr "A chave da API para conectar em sua conta GoCache."
+
+#: View/settings.php:88
+msgid "Get your API key here."
+msgstr "Pegue sua chave da API aqui."
+
+#: View/settings.php:94
+msgid "Domain"
+msgstr "Domínio"
+
+#: View/settings.php:147
+msgid "SmartCache for WordPress"
+msgstr "SmartCache para WordPress"
+
+#: View/settings.php:160 View/settings.php:199
+msgid "Disabled"
+msgstr "Desativado"
+
+#: View/settings.php:161 View/settings.php:205
+msgid "2 days"
+msgstr "2 dias"
+
+#: View/settings.php:162 View/settings.php:204
+msgid "1 day"
+msgstr "1 dia"
+
+#: View/settings.php:163 View/settings.php:202
+msgid "4 hours"
+msgstr "4 horas"
+
+#: View/settings.php:164 View/settings.php:201
+msgid "2 hours"
+msgstr "2 horas"
+
+#: View/settings.php:165 View/settings.php:200
+msgid "1 hour"
+msgstr "1 hora"
+
+#: View/settings.php:166
+msgid "30 minutes"
+msgstr "30 minutos"
+
+#: View/settings.php:167
+msgid "15 minutes"
+msgstr "15 minutos"
+
+#: View/settings.php:168
+msgid "10 minutes"
+msgstr "10 minutos"
+
+#: View/settings.php:169
+msgid "5 minutes"
+msgstr "5 minutos"
+
+#: View/settings.php:173
+msgid "Cache expiration time"
+msgstr "Tempo de expiração de cache"
+
+#: View/settings.php:187
+msgid "GZIP Compression"
+msgstr "Compressão GZIP"
+
+#: View/settings.php:203
+msgid "12 hours"
+msgstr "12 horas"
+
+#: View/settings.php:206
+msgid "4 days"
+msgstr "4 dias"
+
+#: View/settings.php:207
+msgid "7 days"
+msgstr "7 dias"
+
+#: View/settings.php:208
+msgid "15 days"
+msgstr "15 dias"
+
+#: View/settings.php:209
+msgid "30 days"
+msgstr "30 dias"
+
+#: View/settings.php:210
+msgid "6 months"
+msgstr "6 meses"
+
+#: View/settings.php:211
+msgid "1 year"
+msgstr "1 ano"
+
+#: View/settings.php:216
+msgid "Browser Cache"
+msgstr "Cache no navegador"
+
+#: View/settings.php:230
+msgid "Development Mode"
+msgstr "Modo desenvolvimento"
+
+#: View/settings.php:246 View/settings.php:321
+msgid "Save settings"
+msgstr "Salvar alterações"
+
+#: View/settings.php:276
+msgid "Automatically clean cache for each published content"
+msgstr "Limpar automaticamente o cache a cada novo conteúdo publicado ou alterado"
+
+#: View/settings.php:283
+msgid "Yes"
+msgstr "Sim"
+
+#: View/settings.php:290
+msgid "No"
+msgstr "Não"
+
+#: View/settings.php:293
+msgid "Why it is important to automatically clear the cache?"
+msgstr "Porque é importante limpar automaticamente o cache?"
+
+#: View/settings.php:299
+msgid "Clear all cache"
+msgstr "Limpar todo o cache"
+
+#: View/settings.php:301 View/settings.php:311
+msgid "Clear"
+msgstr "Limpar"
+
+#: View/settings.php:306
+msgid "Clear by URL"
+msgstr "Limpar cache por URL"
+
+#: View/settings.php:309
+msgid "Enter one URL per line"
+msgstr "Insira uma URL por linha"
+
+#: View/settings.php:332
+msgid "Search automatically or insert your site's sitemap pages (One URL per line)."
+msgstr "Busque automaticamente ou insira as páginas de sitemap do seu site (Uma URL por linha)."
+
+#. Plugin Name of the plugin/theme
+msgid "GoCache"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Conecta seu Wordpress com a GoCache, que acelera de forma inteligente as páginas e arquivos "
+"estáticos do site, reduzindo o consumo de recursos no servidor web e banco de dados."
+msgstr ""
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "GoCache"
+msgstr "Cache"
+
+#. Author URI of the plugin/theme
+msgid "http://www.gocache.com.br/"
+msgstr ""
+
+#~ msgid "GoCache Manager"
+#~ msgstr "GoCache Manager"
+
+#~ msgid "https://apiki.com/"
+#~ msgstr "https://apiki.com/"
+
+#~ msgid "Manage cache settings through the GoCache API."
+#~ msgstr "Gerencia as configurações de cache através da API GoCache."
+
+#~ msgid "Apiki WordPress"
+#~ msgstr "Apiki WordPress"
+
+#~ msgid "Include urls separated by comma"
+#~ msgstr "Inclua as urls separadas por vírgula"

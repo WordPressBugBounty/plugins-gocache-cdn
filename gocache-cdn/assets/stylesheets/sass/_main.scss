@@ -1,0 +1,56 @@
+#gocache-admin .status {
+	display: inline-block;
+    padding: 3px 6px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#gocache-admin .status.neutral {
+	background: rgba(255, 0, 0, 0.83);
+}
+
+#gocache-admin .status.positive {
+	background: #00D254;
+}
+
+#gocache-admin {
+
+	.gocache-logo {
+		img {
+			width: 250px;
+		}
+	}
+
+	.form-header {
+		position: relative;
+	}
+
+	.help-link {
+		position: absolute;
+	    top: -4px;
+	    left: 218px;
+	    text-align: center;
+	    background-color: #BCDBEA;
+	    border-radius: 50%;
+	    width: 24px;
+	    height: 24px;
+	    font-size: 14px;
+	    line-height: 26px;
+	    cursor: default;
+
+	    a {
+	    	text-decoration: none;
+	    	font-weight: 600;
+	    }
+	}
+}
+
+/* a.toplevel_page_gocache-manager-settings {
+	img {
+		width: 25px;
+		height: 25px;
+		position: relative;
+		top: -4px;
+	}
+} */
