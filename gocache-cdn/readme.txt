@@ -2,8 +2,8 @@
 Contributors: apiki, gocachecdn, aguiart0, lucasbg0, daniloalvess
 Tags: CDN, cache, optimization, performance, speed
 Requires at least: 5.3
-Tested up to: 6.3
-Stable tag: 1.3.5
+Tested up to: 6.7.1
+Stable tag: 1.3.6
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,9 @@ infraestrutura web e oferece uma melhor experiência para os visitantes.
 3. Limpeza de cache
 
 == Changelog ==
+
+= 1.3.6 - 15/01/2025 =
+* Compatibilidade com a nova versão do Wordpress - 6.7.1
 
 = 1.3.5 - 13/10/2023 =
 * Adicionando versões sem barras de urls com barras no final
